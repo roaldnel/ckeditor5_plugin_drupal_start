@@ -15,7 +15,7 @@ Replace the “ckeditor5_plugin_start“ part in all three these yml files in th
 
 - **ckeditor5_plugin_start**.info.yml
 
-- **keditor5_plugin_start**.libraries.yml
+- **ckeditor5_plugin_start**.libraries.yml
 
 Rename the “pluginStart“ folder in the js/ckeditor5_plugins folder, this should match the plugin references changed in the …ckeditor5.yml file in the previous step.
 
