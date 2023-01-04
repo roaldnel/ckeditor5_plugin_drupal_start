@@ -1,0 +1,24 @@
+#  TODO: REPLACE THE PLUGIN NAME BELOW - "ckeditor5_plugin_start" - this must match the first part of the file names
+#  please note, the plugin name must include an extra underscore and text -
+#  in this case "_plugin" was used but this can be changed
+ckeditor5_plugin_start_plugin:
+  ckeditor5:
+    plugins:
+      #  TODO: REPLACE THE PLUGIN REFERENCES
+      - pluginStart.pluginStart
+  drupal:
+    #  TODO: REPLACE THE LABEL - "CKEditor 5 Starter"
+    label: CKEditor 5 Starter
+    #  TODO: REPLACE THE LIBRARY
+    library: ckeditor5_plugin_start/pluginstart
+    #  TODO: REPLACE THE ADMIN LIBRARY
+    admin_library: ckeditor5_plugin_start/admin.pluginstart
+    toolbar_items:
+      #  TODO: REPLACE THE PLUGIN REFERENCE - "pluginStart"
+      pluginStart:
+        #  TODO: REPLACE THE LABEL - "CKEditor 5 Starter"
+        label: CKEditor 5 Starter
+    #  TODO: ADD AND/OR REMOVE ELEMENTS
+    elements:
+      - <span>
+      - <customElement>

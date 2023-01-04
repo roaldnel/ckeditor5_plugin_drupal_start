@@ -1,0 +1,9 @@
+#  TODO: REPLACE THE NAME - "CKEditor 5 Starter"
+name: CKEditor 5 Starter
+type: module
+#  TODO: REPLACE THE PLUGIN DESCRIPTION
+description: "CKEditor 5 plugin starter code"
+package: CKEditor 5
+core_version_requirement: ^9 || ^10
+dependencies:
+  - drupal:ckeditor5

@@ -1,0 +1,18 @@
+#  TODO: REPLACE THE PLUGIN REFERENCE - "pluginstart"
+pluginstart:
+  css:
+    theme:
+      #  TODO: REPLACE THE PLUGIN CSS FILE NAME - "pluginstart.css"
+      css/pluginstart.css: { }
+  js:
+    #  TODO: REPLACE THE PLUGIN JS FILE NAME - "pluginstart.js"
+    js/build/pluginstart.js: { preprocess: false, minified: true }
+  dependencies:
+    - core/ckeditor5
+
+#  TODO: REPLACE THE PLUGIN REFERENCE - "pluginstart"
+admin.pluginstart:
+  css:
+    theme:
+      #  TODO: REPLACE THE PLUGIN CSS FILE NAME - "pluginstart.admin.css"
+      css/pluginstart.admin.css: { }

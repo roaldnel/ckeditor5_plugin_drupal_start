@@ -1,0 +1,1 @@
+You can place any icons required for the CKEditor 5 toolbar here and reference them in your js code.
